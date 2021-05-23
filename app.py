@@ -25,8 +25,8 @@ from user import whoopUser # The whoop API
 # In[ ]:
 
 
-email = "Michaelamiraslani@gmail.com"
-password = "Coolcool2"
+email = "email"
+password = "password"
 user = whoopUser(email, password)
 
 
