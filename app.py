@@ -72,6 +72,6 @@ if skip == 'n':
 user.get_cycles_df(params).to_csv('cycles.csv')
 user.get_sleeps_df(params).to_csv('sleeps.csv')
 user.get_workouts_df(params).to_csv('workouts.csv')
-user.get_heart_rate_df(params).to_csv('heart_rates.csv')
+user.get_heart_rate_df().to_csv('heart_rates.csv')
 pd.DataFrame(user.get_sports()).to_csv('sports.csv')
 
