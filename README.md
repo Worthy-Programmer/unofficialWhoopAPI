@@ -1,5 +1,10 @@
-# unofficialWhoopAPI
+# unofficialWhoopAPI - Forked and used 
 
+From me,
+```pip install pandas```
+and then run app.py, you're credentials is written be careful
+
+From the api,
 I created a wrapper around the unofficial WHOOP API documented here https://app.swaggerhub.com/apis/DovOps/whoop-unofficial-api/1.0.1#/. As far as I know this is not support officially by WHOOP in anyway. My motivation was that WHOOP users will be able to derive more health insights by being able to access their own data directly.
 
 I used the script provided here as a base https://gist.github.com/jkreileder/459cf1936e099e2e521cee7d2d4b7acb.
